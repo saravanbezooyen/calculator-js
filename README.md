@@ -1,6 +1,6 @@
 ##Calculator Javascript
 Tijdens deze opdracht ga je een rekenmachine programmeren in de web browser. Hierbij maak je gebruik van html, css en javascript.
-
+![Voorbeeld](calc.png)
 De opdracht bestaat uit twee type eisen, functionele eisen en technische eisen. Je moet aan alle deze eisen voldoen!
 
 ###Functionele eisen
