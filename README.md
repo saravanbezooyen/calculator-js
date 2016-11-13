@@ -7,16 +7,24 @@ De opdracht bestaat uit twee type eisen, functionele eisen en technische eisen. 
 Functionele eisen beschrijven welke functionaliteit je eindproduct moet bevatten. Functionele eisen mogen nooit van technische aard zijn! Ieder persoon moet begrijpen welke functionaliteit de opdracht moet bevatten, ongeacht kennis niveau.
 
 De rekenmachine moet aan de volgende functionele eisen voldoen:
-* Eis 1
-* Eis 2
+* De rekenmachine heeft knoppen voor de getallen 0 tot en met 9
+* De rekenmachine heeft een knop (.) om decimalen in te voeren.
+* De rekenmachine heeft een knop (+) om op te tellen
+* De rekenmachine heeft een knop (-) om af te trekken
+* De rekenmachine heeft een knop (x) om te vermenigvuldigen
+* De rekenmachine heeft een knop (÷) om te delen
+* De rekenmachine heeft een knop (=) om de berekening uit te voeren.
+* De rekenmachine heeft een knop (c) om alle invoer ongedaan te maken.
+* De rekenmachine heeft een venster waarin het ingevoerde getal of de uitkomst van de berekening getoont wordt.
 
 ###Technische eisen
 Technische eisen beschrijven aan welke vakgerichte voorwaarden de opdracht moet voldoen. Bijvoorbeeld dat de opdracht in correct validerend HTML en CSS moet worden geschreven. 
 
 De rekenmachine moet aan de volgende technische eisen voldoen:
-* Eis 1
-* Eis 2
+* De presentatie van de rekenmachine is gemaakt doormiddel van correct html en css
+* De logica van de rekening machine is geprogrammeert in javascript
+* Getallen worden ingevoerd door te drukken op de knoppen van de rekenmachine.
+* De rekenmachine laat bij berekeningen met meer dan 2 cijfers de uitkomst van de tussenstappen zien. 
 
 ###Bonus
-* Bonus 1
-* Bonus 2
+* Los de afrondings problemen bij berekeningen met decimalen op. Voorbeeld van dit probleem is de berekening 0.1 + 0.2 (0.30000000000000004)
