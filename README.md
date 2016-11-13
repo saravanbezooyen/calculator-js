@@ -23,10 +23,11 @@ De rekenmachine moet aan de volgende functionele eisen voldoen:
 Technische eisen beschrijven aan welke vakgerichte voorwaarden de opdracht moet voldoen. Bijvoorbeeld dat de opdracht in correct validerend HTML en CSS moet worden geschreven. 
 
 De rekenmachine moet aan de volgende technische eisen voldoen:
-* De presentatie van de rekenmachine is gemaakt doormiddel van correct html en css
-* De logica van de rekening machine is geprogrammeert in javascript
+* De presentatie van de rekenmachine is gemaakt door gebruik te maken van html en css
+* De logica van de rekenmachine is geprogrammeert in javascript
 * Getallen worden ingevoerd door te drukken op de knoppen van de rekenmachine.
 * De rekenmachine laat bij berekeningen met meer dan 2 cijfers de uitkomst van de tussenstappen zien. 
+* De rekenmachine heeft ondersteuning voor het werken met hele getallen en getallen met decimalen.
 
 ###Bonus
 * Los de afrondings problemen bij berekeningen met decimalen op. Voorbeeld van dit probleem is de berekening 0.1 + 0.2 , volgens javascript is de uitkomst 0.30000000000000004)
