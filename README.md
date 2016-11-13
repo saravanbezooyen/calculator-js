@@ -29,4 +29,4 @@ De rekenmachine moet aan de volgende technische eisen voldoen:
 * De rekenmachine laat bij berekeningen met meer dan 2 cijfers de uitkomst van de tussenstappen zien. 
 
 ###Bonus
-* Los de afrondings problemen bij berekeningen met decimalen op. Voorbeeld van dit probleem is de berekening 0.1 + 0.2 (0.30000000000000004)
+* Los de afrondings problemen bij berekeningen met decimalen op. Voorbeeld van dit probleem is de berekening 0.1 + 0.2 , volgens javascript is de uitkomst 0.30000000000000004)
