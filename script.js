@@ -3,56 +3,45 @@ var number1 = null;
 var number2 = null;
 
 function addNumber(i) {
-	var screen = document.getElementsByClassName('screen')[0];
-	screen.innerHTML = screen.innerHTML + i;
-	number2 = screen.innerHTML;
+    var screen = document.getElementsByClassName('screen')[0];
+
+    screen.innerHTML = screen.innerHTML + i;
+
+    (number1 == null) ? number1 = i : number2 = i;
 }
 
 function addOperator(value) {
-	var screen = document.getElementsByClassName('screen')[0];
-	operator = value;	
-	screen.innerHTML = "";
+    var screen = document.getElementsByClassName('screen')[0];
 
-		if (number1 !=null){
-			if (operator == "+") {
-				number1 = Number(number1) + Number(number2);
-			}
-				if (operator == "-") {
-				number1 = Number(number1) - Number(number2);
-			}
-				if (operator == "*") {
-				number1 = Number(number1) * Number(number2);
-			}
-				if (operator == "/") {
-				number1 = Number(number1) / Number(number2);
-			} 
-		} else {
-			number1 = number2;
-		}
+    operator = value;
+    screen.innerHTML = "";
 }
 
 function calculate() {
-	var screen = document.getElementsByClassName('screen')[0];
-		screen.innerHTML = "";
-			if (operator == "+") {
-				screen.innerHTML = Number(number1) + Number(number2);
-			}
-			if (operator == "-") {
-				screen.innerHTML = Number(number1) - Number(number2);
-			}
-			if (operator == "*") {
-				screen.innerHTML = Number(number1) * Number(number2);
-			}
-			if (operator == "/") {
-				screen.innerHTML = Number(number1) / Number(number2);
-			} 		
+    var screen = document.getElementsByClassName('screen')[0];
+    screen.innerHTML = "";
+
+    var value = 0;
+    if (operator == "+") {
+        value = Number(number1) + Number(number2);
+    }else if (operator == "-") {
+        value = Number(number1) - Number(number2);
+    }else if (operator == "*") {
+        value = Number(number1) * Number(number2);
+    } else if (operator == "/") {
+        value = Number(number1) / Number(number2);
+    }
+
+    screen.innerHTML = value;
+    number1 = value;
+    number2 = null;
 }
 
 function bobbelpop() {
-	var screen = document.getElementsByClassName('screen') [0];
+    var screen = document.getElementsByClassName('screen') [0];
 
-	operator = "";
- 	number1 = null;
- 	number2 = null
- 	screen.innerHTML = "";
+    operator = "";
+    number1 = null;
+    number2 = null
+    screen.innerHTML = "";
 }
